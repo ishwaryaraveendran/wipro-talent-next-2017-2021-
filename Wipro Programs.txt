@@ -1,0 +1,151 @@
+				WIPRO PROGRAMS
+
+1.positive numbers,negative numbers,zero
+													
+import java.util.*;
+
+
+class Main {
+  public static void main(String[] args) {
+   
+    Scanner sc= new Scanner (System.in);
+    System.out.print("Enter number 1:");
+    int num1=sc.nextInt();
+    
+    if(num1>0)
+      System.out.println("number"+num1+"positive");
+    else if(num1<0)
+      System.out.println("number"+num1+"negative");
+    else
+      System.out.println("number"+num1+"equal to 0");
+  }
+}
+
+2.accept 2 numbers print 2 greatest numbers
+
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+   
+    Scanner sc= new Scanner (System.in);
+    System.out.print("Enter num 1:");
+    int num1=sc.nextInt();
+    System.out.print("Enter num 2:");
+    int num2=sc.nextInt();
+    if(num1>num2)
+      System.out.println("greatest number is"+num1);
+    else 
+      System.out.println("greatest number is"+num2);
+    
+  }
+}
+
+3.accept number n and print even or odd
+
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+   
+    Scanner sc= new Scanner (System.in);
+    System.out.print("Enter num 1:");
+    int num1=sc.nextInt();
+    
+    if(num1%2==0)
+      System.out.println("num"+num1+"is even");
+    else 
+      System.out.println("num"+num1+"is odd");
+    
+  }
+}
+
+4.accept 2 numbers and print sum is even or odd:
+
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+   
+    Scanner sc= new Scanner (System.in);
+    System.out.print("Enter num 1:");
+    int num1=sc.nextInt();
+    System.out.print("Enter num 2:");
+    int num2=sc.nextInt();
+    int s=num1+num2;
+    if(s%2==0)
+      System.out.println("num"+s+"is EVEN");
+    else
+      System.out.println("num"+s+"is ODD");
+  }
+}
+
+5.print number from 1 to 100:
+
+class Main {
+  public static void main(String[] args) {
+    int i=1;
+    while(i>=0)
+    {
+      System.out.println(i);
+      i++;
+      if(i==101)
+      {
+        break;
+      }
+    }
+  }
+}
+
+6.alterate number from 1 to 99:
+
+class Main {
+  public static void main(String[] args) {
+   
+    int i=1;
+    while(i<100)
+    {
+      System.out.println(i);
+      i=i+2;
+    }
+  }
+}
+
+7.alternate numbers from 0 to 100:
+
+class Main {
+  public static void main(String[] args) {
+    int i=0;
+    while(i<100)
+    {
+      System.out.println(i);
+      i=i+2;
+    }
+    
+  }
+}
+
+8.backwards from 100 to 0:
+
+class Main {
+  public static void main(String[] args) {
+    int i=100;
+    while(i>0)
+    {
+      System.out.println(i);
+      i--;
+    }
+  }
+}
+
+9.backward from 100 to 1 by skipping 2:
+
+class Main {
+  public static void main(String[] args) {
+    int i=100;
+    while(i>0)
+    {
+      System.out.println(i);
+      i=i-3;
+    }
+  }
+}
+
+
